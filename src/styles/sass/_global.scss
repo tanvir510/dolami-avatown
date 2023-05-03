@@ -1,0 +1,195 @@
+body {
+  font-weight: 300;
+  font-family: $primary-font;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+// Common section padding
+.section-padding {
+  padding: 100px 0px;
+}
+
+.text-neongreen {
+  color: $secondary;
+}
+
+// Secondary Background Color
+.secondary-bg {
+  background: $secondary;
+}
+
+// Shop Background
+.bg-white {
+  background: $white;
+}
+
+.bg-gray {
+  background: $lite-gray;
+}
+
+// White color
+.white {
+  color: $white;
+}
+
+// Black color
+.black {
+  color: $black;
+}
+
+// Gray color
+.gray {
+  color: $gray;
+}
+
+// Invalid feedback
+.invalid-feedback {
+  color: #dc3545;
+}
+
+.no-found {
+  color: $secondary;
+  font-size: 14px;
+}
+
+// Reset css
+a {
+  outline: none !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+.btn {
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+// Heading-area
+.heading-area {
+  background-color: $secondary;
+  color: $white;
+  text-align: center;
+  font-weight: 500;
+  padding: 15px 0px;
+  font-size: 16px;
+  border-right: 1px solid $border;
+}
+
+// Custom btn
+.button {
+  border: none;
+  outline: none;
+  box-shadow: $shadow;
+  height: 45px;
+  width: 100%;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: $radius;
+  color: $white;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  transition: $transition;
+
+  &.primary {
+    background-color: $bg-orange;
+  }
+
+  &.secondary {
+    background-color: $secondary;
+  }
+
+  &.outline {
+    background-color: $white;
+    color: $tertiary;
+    border: 1px solid $border;
+    box-shadow: none;
+
+    &:hover {
+      color: $tertiary;
+      border: 1px solid $border;
+    }
+  }
+
+  &.status-btn {
+    box-shadow: none;
+    color: $black;
+    height: 35px;
+    min-width: 100px;
+    font-size: 12px;
+
+    &:hover {
+      color: $black;
+    }
+  }
+
+  &.lite-green {
+    background-color: #d8f2e4;
+  }
+
+  &.lite-red {
+    background-color: #ecd5d8;
+  }
+
+  &.lite-blue {
+    background-color: #d9e5f1;
+  }
+
+  &.lite-orange {
+    background-color: #f2edd9;
+  }
+
+  &:focus {
+    border: none;
+    outline: none;
+    box-shadow: $shadow;
+  }
+
+  &:hover {
+    color: $white;
+  }
+
+  &:disabled {
+    background-color: $border;
+    color: $tertiary;
+    box-shadow: none;
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: $border;
+      color: $tertiary;
+    }
+  }
+}
+
+.form-check-input:focus,
+.form-select:focus {
+  border-color: rgba($color: #000000, $alpha: 0.25);
+  outline: 0;
+  box-shadow: none;
+}
+
+// Error message
+.error-message {
+  text-align: center;
+  color: #dc3545;
+  margin-bottom: 15px;
+}

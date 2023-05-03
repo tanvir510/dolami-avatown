@@ -1,0 +1,20 @@
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Variables
+@import "variables";
+@import "normalize";
+@import "mixins";
+@import "global";
+@import "widget";
+@import "pagination";
+@import "swiper";
+
+// layout
+@import "layout";
+
+// Components
+@import "components";
+
+// Pages
+@import "pages";

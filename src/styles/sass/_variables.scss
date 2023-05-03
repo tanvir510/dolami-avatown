@@ -1,0 +1,21 @@
+//== Color Variables
+$primary: #561e87;
+$secondary: #4c45f6;
+$tertiary: #34353a;
+$bg-gray: #f1f1f1;
+$bg-orange: #edb75d;
+$gray: #444444;
+$lite-gray: #f9f9f9;
+$black: #000;
+$white: #fff;
+$border: #ceced0;
+$shadow: 0px 3px 6px #00000029;
+$radius: 5px;
+$transition: all 0.5s ease-in-out;
+
+//== Typography
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap");
+
+//== Font Family
+$primary-font: "Montserrat", sans-serif;
+$secondary-font: "Oswald", sans-serif;
