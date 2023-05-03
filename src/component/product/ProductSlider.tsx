@@ -28,10 +28,6 @@ export const ProductSlider = ({ productImage }: any) => {
     <>
       <div className="product-slider">
         <Swiper
-          style={{
-            "--swiper-navigation-color": "#fff",
-            "--swiper-pagination-color": "#fff",
-          }}
           spaceBetween={10}
           navigation={true}
           thumbs={{
